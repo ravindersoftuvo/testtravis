@@ -1,0 +1,182 @@
+/*** 2016 (C) BY Bogusz Szurkowski/  */
+/*@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);*/
+.dinweb { font-family: 'dinweb', serif; font-weight: normal !important; }
+.dinweb-medium { font-family: 'dinweb-medium', serif; font-weight: normal !important; }
+.dinweb-black { font-family: 'dinweb-black', serif; font-weight: normal !important; }
+.dinweb-bold { font-family: 'dinweb-bold', serif; font-weight: normal !important; }
+.dinweb-light { font-family: 'dinweb-light', serif; font-weight: normal !important; }
+@font-face { font-family: "dinweb"; src: url("fonts/dinweb.eot"); src: local("☺"),  url("fonts/dinweb.woff") format("woff"),  url("fonts/dinweb.woff2") format("woff2"),  url("fonts/dinweb.html") format("opentype"),  url("fonts/dinweb.svg#dinweb") format("svg"); }
+@font-face { font-family: "dinweb-black"; src: url("fonts/dinweb-black.eot"); src: local("☺"),  url("fonts/dinweb-black.woff") format("woff"),  url("fonts/dinweb-black.woff2") format("woff2"),  url("fonts/dinweb-black.html") format("opentype"),  url("fonts/dinweb-black.svg#dinweb-black") format("svg"); }
+@font-face { font-family: "dinweb-bold"; src: url("fonts/dinweb-bold.eot"); src: local("☺"),  url("fonts/dinweb-bold.woff") format("woff"),  url("fonts/dinweb-bold.woff2") format("woff2"),  url("fonts/dinweb-bold.html") format("opentype"),  url("fonts/dinweb-bold.svg#dinweb-bold") format("svg"); }
+@font-face { font-family: "dinweb-light"; src: url("fonts/dinweb-light.eot"); src: local("☺"),  url("fonts/dinweb-light.woff") format("woff"),  url("fonts/dinweb-light.woff2") format("woff2"),  url("fonts/dinweb-light.html") format("opentype"),  url("fonts/dinweb-light.svg#dinweb-light") format("svg"); }
+@font-face { font-family: "dinweb-medium"; src: url("fonts/dinweb-medium.eot"); src: local("☺"),  url("fonts/dinweb-medium.woff") format("woff"),  url("fonts/dinweb-medium.woff2") format("woff2"),  url("fonts/dinweb-medium.html") format("opentype"),  url("fonts/dinweb-medium.svg#dinweb-medium") format("svg"); }
+.customgradient2 {/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#4f4f4f+1,3c3c3c+100,207cca+100,1e5799+100 */ background: #4f4f4f; /* Old browsers */ background: -moz-radial-gradient(center, ellipse cover, #4f4f4f 1%, #3c3c3c 100%, #207cca 100%, #1e5799 100%); /* FF3.6-15 */ background: -webkit-radial-gradient(center, ellipse cover, #4f4f4f 1%, #3c3c3c 100%, #207cca 100%, #1e5799 100%); /* Chrome10-25,Safari5.1-6 */ background: radial-gradient(ellipse at center, #4f4f4f 1%, #3c3c3c 100%, #207cca 100%, #1e5799 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#4f4f4f', endColorstr='#1e5799', GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+}
+.customgradientblue { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#002c63+0,152a3d+0,213144+100 */
+background: #002c63; /* Old browsers */ background: -moz-linear-gradient(left, #002c63 0%, #152a3d 0%, #213144 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(left, #002c63 0%, #152a3d 0%, #213144 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to right, #002c63 0%, #152a3d 0%, #213144 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c63', endColorstr='#213144', GradientType=1 ); /* IE6-9 */
+}
+.customgradientblue2 { /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#002c63+0,00213f+0,213144+100 */
+background: #002c63; /* Old browsers */ background: -moz-linear-gradient(left, #002c63 0%, #00213f 0%, #213144 100%); /* FF3.6-15 */ background: -webkit-linear-gradient(left, #002c63 0%, #00213f 0%, #213144 100%); /* Chrome10-25,Safari5.1-6 */ background: linear-gradient(to right, #002c63 0%, #00213f 0%, #213144 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */ filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#002c63', endColorstr='#213144', GradientType=1 ); /* IE6-9 */
+}
+.frame-94 { border: 2px solid rgba(255,255,255,1.0); padding: 20px 40px; margin-bottom: 20px; border-radius: 4px; }
+.slide.whiteSlide .frame-94 { border: 1px solid rgba(0,0,0,1.0); }
+@media screen and (min-width: 1129px) {
+.frame-94 { text-align: left; }
+.frame-94 br { display: none; }
+.button.button-94 { margin: 0 0 0 60px; }
+}
+@media screen and (max-width: 1130px) {
+.frame-94 { text-align: center; }
+.button.button-94 { margin: 30px 0 0; }
+}
+@media screen and (max-width: 500px) {
+.frame-94 { padding: 0; border: none; }
+}
+.frame-type1 { border: 2px solid rgba(255,100,24,1.0); padding: 0.6em 0.6em; padding-bottom: 0.1rem; margin-bottom: 20px; border-radius: 2px; }
+.frame-type2 { border: 2px solid rgba(0,98,216, 1.0); padding: 0.6em 0.6em; margin-bottom: 20px; border-radius: 2px; }
+.frame-type3 { border: 2px solid rgba(250,250,250, 1.0); padding: 0.6em 0.6em; padding-bottom: 0.8rem; margin-bottom: 20px; border-radius: 2px; }
+.frame-type4 { border: 2px solid rgba(0,0,0, 1.0); padding: 1em 3em; margin-bottom: 20px; border-radius: 2px; }
+.type1 { color: #ff6418; font-family: "ArticulatCF-Medium", sans-serif; font-family: "ArticulatCF-Medium", serif; letter-spacing: 0.1rem; text-transform: uppercase; font-weight: normal; }
+.type2 { color: rgba(0,98,216, 1.0); font-family: "ArticulatCF-Medium", sans-serif; font-family: "ArticulatCF-Medium", serif; letter-spacing: 0.1rem; text-transform: uppercase; text-align:;
+font-weight: normal; }
+.type3 { color: rgba(250,250,250, 1.0); font-family: "ArticulatCF-Medium", sans-serif; font-family: "ArticulatCF-Medium", serif; letter-spacing: 0.1rem; text-transform: uppercase; font-weight: normal; }
+.type4 { color: rgba(0,0,0, 1.0); font-family: "ArticulatCF-Medium", sans-serif; font-family: "ArticulatCF-Medium", serif; letter-spacing: 0.1rem; text-transform: uppercase; font-weight: normal; }
+ @media screen and (max-width:767px) {
+.frame-type1 { border: 2px solid rgba(255,100,24,1.0); padding: 0.6em 0.7em; padding-bottom: 0.1em; margin-bottom: 20px; border-radius: 2px; }
+.frame-type2 { border: 2px solid rgba(0,98,216, 1.0); padding: 0.6em 0.7em; margin-bottom: 20px; border-radius: 2px; }
+.frame-type3 { border: 2px solid rgba(250,250,250, 1.0); padding: 0.5em 0.7em; margin-bottom: 20px; border-radius: 2px; }
+.frame-type4 { border: 2px solid rgba(0,0,0, 1.0); padding: 1em 3em; margin-bottom: 20px; border-radius: 2px; font-family: "ArticulatCF-Bold", serif; letter-spacing: 1.2px; text-transform: uppercase; font-weight: normal; font-size: 60%; }
+.type1 { font-family: "ArticulatCF-Bold"; font-size: 1.1em; text-transform: none; }
+.type2 { font-family: "ArticulatCF-Bold", serif; letter-spacing: 1.2px; text-transform: uppercase; font-weight: normal; font-size: 70%; text-transform: none; }
+.type3 { font-family: "ArticulatCF-Bold", serif; letter-spacing: 1.2px; text-transform: uppercase; font-weight: normal; font-size: 70%; text-transform: none; }
+}
+h1.header { font-size: 36px; }
+.apache { margin-right: -10.5%; }
+.DVColor { color: #ff6418; }
+.DVblue { color: #008AFF }
+.logo { margin-bottom: 20px; margin-top: 60px; }
+.button.customButton { background: none; box-shadow: 0 0 0 1px rgba(255, 255, 255, 0.3) inset; }
+.button.customButton:hover { box-shadow: 0 0 0 1px rgba(255, 255, 255, 1) inset; }
+.slide.whiteSlide .button.customButton { color: #303030; box-shadow: 0 0 0 1px rgba(48,48,48,.3) inset; }
+.slide.whiteSlide .button.customButton:hover { box-shadow: 0 0 0 1px rgba(48,48,48,1) inset; }
+hr { border: none; height: 1px; background: #EBEBEB; margin: 50px 0 60px; }
+.customLink { color: #ff6418; margin-top: 15px; }
+.customP { font-size: 24px; line-height: 1.29116; font-family: dinweb-light; font-weight: normal }
+
+.slides .customH2 { font-size: 52px; line-height: 1; letter-spacing: -2px; text-transform: none; }
+.box-15 { margin-top: 70px; }
+.grid-81 { margin-top: 80px; }
+.videoThumbnail-82 { margin-top: 25px; margin-bottom: 5px; }
+.text-79 { font-size: 20px; font-family: "dinweb"; }
+.text-79 strong { margin-right: 5px; font-size: 22px; }
+.button.button-79 { width: 40px; height: 40px; box-shadow: 0 0 0 2px #fff !important; padding: 7px 13px; }
+.button.button-79 svg { fill: #000 !important; width: 16px; height: 16px; }
+.social-circles li { padding: 0.3rem; }
+.popup { font-family: "dinweb"; position: fixed; top: 0; right: 0; width: 100%; height: 100%; color: #fff; z-index: 1000; -webkit-transition: -webkit-transform 0.5s, opacity 0.5s; transition: transform 0.5s, opacity 0.5s; overflow-y: auto; -webkit-overflow-scrolling: touch; display: none; -webkit-transform: translate3d(0, 0, 0); transform: translate3d(0, 0, 0); }
+form label.uppercase { font-weight: 200; }
+.pop { font-family: 'dinweb-bold', serif; letter-spacing: 0.01em; }
+form.center input, form.center textarea { font-family: dinweb-light; font-weight: 200; }
+ @media screen and (max-width:767px) {
+ .grid.grid-15-49 > [class*='col-'] {
+ margin-bottom:50px;
+}
+}
+.pad-like { background: #fff; padding: 6% 10%; border-radius: 20px; box-shadow: 0 20px 60px rgba(0, 0, 0, 0.14); }
+/* change panel top on scroll * white */
+.page-loaded .slides:not(.firstSlide) .panel.top { background: rgba(255,255,255,.975); border-bottom: 1px solid #ebebeb; color: #303030; }
+.page-loaded .slides:not(.firstSlide) .panel.top .logo svg { fill: #303030; }
+.page-loaded .slides:not(.firstSlide) .panel.top .button.menuButton { background: #303030; color: #fff; }
+/* reduce logo size on scroll */
+.slides:not(.firstSlide) .panel .logo svg { height: 50px !important; }
+/* change logo colour on last slide * orange */
+
+.page-loaded .slides.lastSlide .panel.top .logo svg { fill: #ff6418; height: 79px !important; }
+.popup:not([class*="fade-"]) { background: rgba(255, 100, 24, 0.9); }
+svg.icon-61 { fill: #008AFF; }
+
+
+
+/* 08-08-2018*/
+
+
+.animated [class*="ae-"]:not(.done), .animated .fromBottom [class*="ae-"]:not(.done), .animated.fromBottom [class*="ae-"]:not(.done), .slides.animated .fromBottom[class*="ae-"]:not(.done) {
+  opacity: 1 !important;
+  transform: translate3d(0px, 0px, 0px) !important;
+  visibility: visible !important;
+}
+ #mc4wp-form-1 input[type="submit"] {
+    background-color: #ff0000;
+    border: medium none;
+    border-radius: 4px;
+    font-size: 30px;
+    height: 68px;
+    margin-top: 90px;
+    text-transform: uppercase;
+    width: 310px;
+    color: #fff;
+}
+
+.menu-footer-container ul#menu-footer {
+    color: #000;
+    display: inline-block;
+    font-size: 17px;
+    margin-top: 4px;
+    width: 100%;
+    text-transform: uppercase;
+}
+
+span.user-name {
+    color: #fff;
+    padding: 0px 0px 5px 20px;
+}
+.katb_css_rating {
+    color: #ff0000 !important;
+}
+#livesite_engage_button .ls-action-T, #livesite_action_buttons .ls-action-T {
+    background-color: #ff0000 !important;
+}
+
+fieldset, label { margin: 0; padding: 0; }
+
+h1 { font-size: 1.5em; margin: 10px; }
+
+/****** Style Star Rating Widget *****/
+
+.rating { 
+  border: none;
+  float: left;
+}
+
+.rating > input { display: none !important; } 
+.rating > label:before { 
+  margin: 5px;
+  font-size: 1.25em;
+  font-family: FontAwesome;
+  display: inline-block;
+  content: "\f005";
+}
+
+.rating > .half:before { 
+  content: "\f089";
+  position: absolute;
+}
+
+.rating > label { 
+  color: #ddd; 
+ float: right; 
+}
+
+/***** CSS Magic to Highlight Stars on Hover *****/
+
+.rating > input:checked ~ label, /* show gold star when clicked */
+.rating:not(:checked) > label:hover, /* hover current star */
+.rating:not(:checked) > label:hover ~ label { color: #ff0000;  } /* hover previous stars in list */
+
+.rating > input:checked + label:hover, /* hover current star when changing rating */
+.rating > input:checked ~ label:hover,
+.rating > label:hover ~ input:checked ~ label, /* lighten current selection */
+.rating > input:checked ~ label:hover ~ label { color: #ff0000;  } 
+img.end { float: right; }
+
+
+
